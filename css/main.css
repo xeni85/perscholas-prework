@@ -1,0 +1,90 @@
+* {
+    background-color: aliceblue;
+    margin:0%;
+}
+
+nav {
+    background-color: beige;
+    margin: 0;
+    padding: 1rem;
+}
+
+nav a {
+    padding-right: 0.3rem;
+    text-decoration: none;
+    color: purple;
+}
+h1, h2, h3, h4, p , img, table, hr, iframe, form{
+    margin: 0 1rem 0 1rem;
+}
+h2 {
+    text-decoration: underline;
+}
+p {
+    font-size: smaller;
+}
+li {
+    font-style: italic;
+}
+a:visited {
+    text-decoration: none;
+}
+
+
+h1, h2, h3, h4{
+    color: chocolate;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    border: solid 1px chocolate;
+    border-radius: 10px;
+    padding: 2rem;
+    color: brown;
+}
+
+img {
+    display: inline-block;
+    width: auto;
+    height: 20rem;
+}
+
+div {
+    padding-bottom: 0.3rem;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-para {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
+    color: purple;
+}
+
+.contact-button {
+    position: sticky;
+    left: 80rem;
+    bottom:50rem;
+    width: 2rem;
+    padding: 1rem;
+    border: solid 1px red;
+    border-radius: 50%;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: black;
+    font-size: x-small;
+    font-weight: bolder;
+}
+
+.div-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20rem;
+}
